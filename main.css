@@ -155,7 +155,7 @@ body {
   .content {
     margin: 2% 3% 2% 3%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-size: 18px;
   }
   #ques {
     font-weight: bold;
@@ -163,7 +163,7 @@ body {
   }
   #ans {
     font-weight: normal;
-    font-size:medium;
+    font-size: medium;
   }
   .content .head {
     font-family: 'Courier New', Courier, monospace;
@@ -172,5 +172,10 @@ body {
   }
   .content img {
     height: 300px;
-    padding: 2%;
+    width: 100%;
+  }
+  .content .cg {
+    background-color: #21f38e;
+    color: black;
+    padding: 2px;
   }
