@@ -177,7 +177,7 @@ body {
     width: 100%;
   }
   .content .cg {
-    background-color: #21f38e;
+    /* background-color: #21f38e; */
     color: black;
     padding: 2px;
   }
@@ -223,8 +223,15 @@ body {
     height: 320px;
     min-width: 470px;
   }
-   .case{
-    text-align: justify;
+  .case_title {
+    text-align: center;
+    padding: 2%;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  .case_contents {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 4%;
   }
   .next {
     background-color: #f4efef;
@@ -233,6 +240,11 @@ body {
   }
   .next .intro {
     font-size: 40px;
+    border-radius: 10px;
+  }
+  .intro:hover {
+    background-color: #21f38e;
+    transition: all ease-in-out 0.3s;
   }
   .hd .text_box {
     display: flex;
@@ -242,10 +254,37 @@ body {
   }
   .text_box_texts {
     padding: 2%;
+    border-radius: 10px;
   }
-
-
-
+  .text_box_texts:hover {
+    transition: all ease-in-out 0.3s;
+    background-color: #e9e9e9;
+  }
+  .text_box_texts img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  #about {
+    background-image: url(back.gif);
+    border-radius: 10px;
+    color: white;
+    padding: 1%;
+  }
+   .headline {
+    padding: 4%;
+    border: 8px solid white;
+    font-size: 32px;
+  }
+  .donate {
+    padding: 4%;
+    border: 8px solid white;
+    font-size: 32px;
+    text-align: center;
+  }
+  .donate a {
+    text-decoration: none;
+    color: white;
+  }
   footer{
     position: relative;
     margin-bottom: 0;
